@@ -1,0 +1,56 @@
+@media (max-width: 978px) {
+    .maindiv {
+
+        grid-template-rows: 4fr 1fr 2fr 2fr 2fr 2fr;
+    }
+
+    .innergrid1 {
+        grid-template-rows: repeat(9, 10vh);
+    }
+
+    .ig1 {
+        grid-column-start: span 11;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .ig1 h1 {
+        grid-row-start: 2;
+        font-size: 3rem;
+    }
+
+    .ig1 p {
+        grid-row-start: 4;
+    }
+
+    .ig1 .btn1 {
+        grid-row-start: 5;
+    }
+
+    .ig2 {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        grid-row-start: 5;
+    }
+
+    .item2 {
+        height: 10rem;
+    }
+
+    .item1 {
+        height: 90vh;
+    }
+
+    .innergrid2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .innergrid2 p {
+        font-size: 0.5rem;
+    }
+
+    .pic5 {
+        width: auto;
+        height: 100%;
+    }
+}
